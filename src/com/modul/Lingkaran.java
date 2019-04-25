@@ -5,16 +5,11 @@ public class Lingkaran extends AbstractShape {
     double phi = 3.14;
 
     @Override
-    void getLuas(){
-        double Luas = phi*r*r;
-        System.out.println("Luas Lingkaran adalah : " + Luas);
+    public double getLuas(){
+        return phi*r*r;
     }
     @Override
-    void getKeliling(){
-        double Keliling = 2*phi*r;
-        System.out.println("Keliling Lingkaran adalah : " + Keliling);
-
+    public double getKeliling(){
+        return 2*phi*r;
     }
-
-    //misal udah di ganti
 }
