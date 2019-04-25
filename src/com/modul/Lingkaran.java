@@ -16,4 +16,5 @@ public class Lingkaran extends AbstractShape {
 
     }
 
+    //misal udah di ganti
 }
